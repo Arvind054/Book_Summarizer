@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "Book_Name",
+        "Length_Input",
+        "Style_Input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n              Please Summarise the Book titled \"{Book_Name}\" with the Following specifications:\n              Explaination Style: {Style_Input} Words,\n              Explaination Length: {Length_Input},\n               First Display the Tittle of the book along with the author Name,\n               On the Next Line Print the Tittle Summary:\n               Then print the summary:\n               If You don't know about the book or can't summrise it just respond \n               with \"Insufficient Data\" instead of Guessing.\n               Ensure the summary is clear, accurate and Aligned with the provided style and lenght.\n            ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
